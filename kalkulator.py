@@ -1,40 +1,47 @@
 import os
 
-while True:
-	a = int (input ('Masukkan angka pertama : '))
-	b = int (input ('Masukkan angka kedua : '))
-	c = input('Masukkan jenis perhitungan (+, -, *, /) : ')
 
-	if c == '+':
-		print (a+b)
-		d = input('lagi? (y) : ')
+while True:  
+	print ('Kalkulator Sederhana')
+	print ('1. Tambah')
+	print ('2. Kurang')
+	print ('3. Kali')
+	print ('4. Bagi')
+
+	a = input('Masukkan jenis perhitungan 1-4 : ')
+	b = int (input ('Masukkan angka pertama : '))
+	c = int (input ('Masukkan angka kedua : '))
+
+	if a == '1':
+		print (b+c)
+		d = input('lagi? (y) | tidak? (press any key!) : ')
 		if d == 'y':
-			continue
 			os.system('cls||clear')
+			continue			
 		else:
 			break
-	elif c == '-':
-		print (a-b)
-		d = input('lagi? (y) : ')
+	elif a == '2':
+		print (b-c)
+		d = input('lagi? (y) | tidak? (press any key!) : ')
 		if d == 'y':
-			continue
 			os.system('cls||clear')
+			continue
 		else:
 			break
-	elif c == '*':
-		print (a*b)
-		d = input('lagi? (y) : ')
+	elif a == '3':
+		print (b*c)
+		d = input('lagi? (y) | tidak? (press any key!) : ')
 		if d == 'y':
-			continue
 			os.system('cls||clear')
+			continue
 		else:
 			break
-	elif c == '/':
-		print (a/b)
-		d = input('lagi? (y) : ')
+	elif a == '4':
+		print (b/c)
+		d = input('lagi? (y) | tidak? (press any key!) : ')
 		if d == 'y':
-			continue
 			os.system('cls||clear')
+			continue
 		else:
 			break
 	else:
