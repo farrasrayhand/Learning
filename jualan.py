@@ -1,9 +1,11 @@
 import os
 import sys
+from os import system
 import getpass
 import pandas as pd
 import openpyxl
 
+system("title " + "Aplikasi Jual Pulsa dan Paket Data")
 
 book = openpyxl.load_workbook('data.xlsx')
 sheet = book.active
@@ -19,7 +21,7 @@ login = "gagal"
 
 os.system('cls||clear')
 print ("-----------------------------------------------------")
-print ("------------JUAL BELI PULSA DAN PAKET DATA-----------")
+print ("---------------JUAL PULSA DAN PAKET DATA-------------")
 print ("-----------------------------------------------------\n\n")
 print ("Note : Aplikasi memiliki bug ketika melakukan transaksi, saldo, pulsa atau paket data tidak terupdate secara realtime\nJadi harus direstart dahulu aplikasinya agar transaksi yang sudah dilakukan terupdate pada sistem!\n\nCoded by : Muhammad Farras Rayhand\nNIM : 2041007\n\nuser : demo\npass : demo\n\n")
 while login == "gagal":
@@ -56,6 +58,7 @@ while login == "berhasil":
 				sheet['E2'].value = pulsa_1+5000
 				book.save('data.xlsx')
 				print ("Anda berhasil membeli pulsa Rp.5000 total pulsa ", pulsa_1)
+				break
 			else:
 				print("Maaf saldo anda tidak cukup, Saldo anda :",saldo_1)
 		elif a == "2":
@@ -64,6 +67,7 @@ while login == "berhasil":
 				sheet['E2'].value = pulsa_1+10000
 				book.save('data.xlsx')
 				print ("Anda berhasil membeli pulsa Rp.10000 total pulsa ", pulsa_1)
+				break
 			else:
 				print("Maaf saldo anda tidak cukup, Saldo anda :",saldo_1)
 		elif a == "3":
@@ -72,6 +76,7 @@ while login == "berhasil":
 				sheet['E2'].value = pulsa_1+20000
 				book.save('data.xlsx')
 				print ("Anda berhasil membeli pulsa Rp.20000 total pulsa ", pulsa_1)
+				break
 			else:
 				print("Maaf saldo anda tidak cukup, Saldo anda :",saldo_1)
 		else:
@@ -89,6 +94,7 @@ while login == "berhasil":
 				sheet['F2'].value = data_1 + 1
 				book.save('data.xlsx')
 				print ("Anda berhasil membeli kuota 1GB total kuota", data_1,"GB")
+				break
 			else:
 				print("Maaf pulsa anda tidak cukup, Pulsa anda :",pulsa_1)
 		elif b == "2":
@@ -97,6 +103,7 @@ while login == "berhasil":
 				sheet['F2'].value = data_1 + 3
 				book.save('data.xlsx')
 				print ("Anda berhasil membeli kuota 1GB total kuota", data_1,"GB")
+				break
 			else:
 				print("Maaf pulsa anda tidak cukup, Pulsa anda :",pulsa_1)
 		if b == "3":
@@ -105,6 +112,7 @@ while login == "berhasil":
 				sheet['F2'].value = data_1 + 5
 				book.save('data.xlsx')
 				print ("Anda berhasil membeli kuota 1GB total kuota", data_1,"GB")
+				break
 			else:
 				print("Maaf pulsa anda tidak cukup, Pulsa anda :",pulsa_1)
 	elif menu == "3":
@@ -125,11 +133,13 @@ while login == "berhasil":
 			book.save('data.xlsx')
 			os.system('cls||clear')
 			print("Saldo telah berhasil di TopUP, Saldo anda :", saldo_1)
+			break
 		elif d == "2":
 			sheet['G2'].value = saldo_1+100000
 			book.save('data.xlsx')
 			os.system('cls||clear')
 			print("Saldo telah berhasil di TopUP, Saldo anda :", saldo_1)
+			break
 		elif d == "3":
 			os.system('cls||clear')
 			continue
