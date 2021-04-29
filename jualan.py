@@ -23,7 +23,7 @@ os.system('cls||clear')
 print ("-----------------------------------------------------")
 print ("---------------JUAL PULSA DAN PAKET DATA-------------")
 print ("-----------------------------------------------------\n\n")
-print ("Note : Aplikasi memiliki bug ketika melakukan transaksi, saldo, pulsa atau paket data tidak terupdate secara realtime\nJadi harus direstart dahulu aplikasinya agar transaksi yang sudah dilakukan terupdate pada sistem!\n\nCoded by : Muhammad Farras Rayhand\nNIM : 2041007\n\nuser : demo\npass : demo\n\n")
+print ("Note : Aplikasi memiliki bug ketika melakukan transaksi, saldo, pulsa atau paket data tidak terupdate secara realtime\nJadi harus direstart dahulu aplikasinya agar transaksi yang sudah dilakukan terupdate pada sistem!\n\nCoded by : Muhammad Farras Rayhand\nNIM : 2041007\n\nuser :",username,"\npass :",password,"\n\n")
 while login == "gagal":
 	print("Silahkan login terlebih dahulu!")
 	login_user = input("Masukkan Username : ")
