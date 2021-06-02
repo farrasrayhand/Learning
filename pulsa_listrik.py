@@ -120,7 +120,7 @@ while menu == "yes":
                     break
                 else:
                     os.system('cls||clear')
-                    print("Masukkan Anda Salah!")
+                    input("Masukkan Anda Salah!")
                     break
             else:
                 input("Username atau Password Salah!")
@@ -238,7 +238,7 @@ while menu == "yes":
             os.system('cls||clear')
             print("Nomor Tidak Terdaftar!")
             input("Tekan enter untuk kembali!")
-            break
+            continue
     elif menu_utama == "5":
         while login == "gagal":
             os.system('cls||clear')
