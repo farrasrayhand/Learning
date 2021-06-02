@@ -38,6 +38,7 @@ while menu == "yes":
     print("3. Top UP Saldo untuk Pembelian Voucher")
     print("4. Cek Info")
     print("5. Ganti Password")
+    print("6. Keluar")
     menu_utama = (input ("Masukkan Pilihan Anda : "))
     if menu_utama == "1":
         while login == "gagal":
@@ -137,35 +138,50 @@ while menu == "yes":
                 if reedem in voucher_5000:
                     saldo_listrik = accounts["saldo_listrik"] + 5000
                     accounts["saldo_listrik"] = saldo_listrik
+                    used = list(voucher_5000)
+                    used.remove(reedem)
+                    voucher_5000 = tuple(used)
                     print("Selamat! Kode Voucher anda berhasil di Reedem! Total Saldo Token Listrik anda : ",accounts["saldo_listrik"])
                     input("Tekan enter untuk kembali!")
                     break
                 elif reedem in voucher_10000:
                     saldo_listrik = accounts["saldo_listrik"] + 10000
                     accounts["saldo_listrik"] = saldo_listrik
+                    used = list(voucher_10000)
+                    used.remove(reedem)
+                    voucher_10000 = tuple(used)
                     print("Selamat! Kode Voucher anda berhasil di Reedem! Total Saldo Token Listrik anda : ",accounts["saldo_listrik"])
                     input("Tekan enter untuk kembali!")
                     break
                 elif reedem in voucher_25000:
                     saldo_listrik = accounts["saldo_listrik"] + 25000
                     accounts["saldo_listrik"] = saldo_listrik
+                    used = list(voucher_25000)
+                    used.remove(reedem)
+                    voucher_25000 = tuple(used)
                     print("Selamat! Kode Voucher anda berhasil di Reedem! Total Saldo Token Listrik anda : ",accounts["saldo_listrik"])
                     input("Tekan enter untuk kembali!")
                     break
                 elif reedem in voucher_50000:
                     saldo_listrik = accounts["saldo_listrik"] + 50000
                     accounts["saldo_listrik"] = saldo_listrik
+                    used = list(voucher_50000)
+                    used.remove(reedem)
+                    voucher_50000 = tuple(used)
                     print("Selamat! Kode Voucher anda berhasil di Reedem! Total Saldo Token Listrik anda : ",accounts["saldo_listrik"])
                     input("Tekan enter untuk kembali!")
                     break
                 elif reedem in voucher_100000:
                     saldo_listrik = accounts["saldo_listrik"] + 100000
                     accounts["saldo_listrik"] = saldo_listrik
+                    used = list(voucher_100000)
+                    used.remove(reedem)
+                    voucher_100000 = tuple(used)
                     print("Selamat! Kode Voucher anda berhasil di Reedem! Total Saldo Token Listrik anda : ",accounts["saldo_listrik"])
                     input("Tekan enter untuk kembali!")
                     break
                 else:
-                    print("Kode Voucher anda Salah!")
+                    print("Kode Voucher anda salah atau sudah terpakai!")
                     input("Tekan enter untuk kembali!")
                     break
             else:
@@ -240,11 +256,10 @@ while menu == "yes":
                 input("Username atau Password Salah!")
                 os.system('cls||clear')
                 break
+    elif menu_utama == "6":
+        break
     else:
         os.system('cls||clear')
         print("Masukkan Anda Salah!")
         input("Tekan enter untuk kembali!")
         continue
-
-
-
