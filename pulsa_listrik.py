@@ -48,7 +48,7 @@ while menu == "yes":
             login_password = str(getpass.getpass("Masukkan Password : "))
             if login_username == accounts["username"] and login_password == accounts["password"]:
                 os.system('cls||clear')
-                print("Halo", accounts["nama"],"! Mau Pilih yang mana?")
+                print("Halo", accounts["nama"],"!\nSaldo anda Sisa :", accounts["saldo_uang"],"\nMau Pilih yang mana?")
                 print("1. Voucher 5.000")
                 print("2. Voucher 10.000")
                 print("3. Voucher 25.000")
