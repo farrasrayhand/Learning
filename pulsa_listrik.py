@@ -23,6 +23,33 @@ accounts = {
     "nomor_listrik" : 19216811
     }
 
+def beli_voucher(paket, nominal):
+    saldo_emoney = accounts["saldo_emoney"] - paket
+    accounts["saldo_emoney"] = saldo_emoney
+    print("Selamat! Pembelian anda berhasil! Voucher Listrik anda :", random.choice(nominal))
+    print("Sisa Saldo anda :", accounts["saldo_emoney"])
+    input("Tekan enter untuk kembali!")
+
+def redeem_voucher(paket):
+    saldo_listrik = accounts["saldo_listrik"] + paket
+    accounts["saldo_listrik"] = saldo_listrik
+    print("Selamat! Kode Voucher anda berhasil di Reedem! Total Saldo Token Listrik anda : ", accounts["saldo_listrik"])
+    input("Tekan enter untuk kembali!")
+
+def emoney(paket):
+    saldo_emoney = accounts["saldo_emoney"] + paket
+    accounts["saldo_emoney"] = saldo_emoney
+    print("Saldo E-Money anda sudah ditambahkan Total Saldo :", accounts["saldo_emoney"])
+    input("Tekan enter untuk kembali!")
+
+def signin():
+    global login_username
+    global login_password
+    os.system('cls||clear')
+    print("Silahkan Login Terlebih dahulu!")
+    login_username = str(input("Masukkan Username : "))
+    login_password = str(getpass.getpass("Masukkan Password : "))
+
 while menu == "yes":
     os.system('cls||clear')
     print("-----------------------------------------------------")
@@ -42,10 +69,7 @@ while menu == "yes":
     menu_utama = (input ("Masukkan Pilihan Anda : "))
     if menu_utama == "1":
         while login == "gagal":
-            os.system('cls||clear')
-            print("Silahkan Login Terlebih dahulu!")
-            login_username = str(input("Masukkan Username : "))
-            login_password = str(getpass.getpass("Masukkan Password : "))
+            signin()
             if login_username == accounts["username"] and login_password == accounts["password"]:
                 os.system('cls||clear')
                 print("Halo", accounts["nama"],"!\nSaldo E-Money anda Sisa :", accounts["saldo_emoney"],"\nMau Pilih yang mana?")
@@ -58,11 +82,7 @@ while menu == "yes":
                 pesan_voucher = (input("Masukkan Pilihan Anda : "))
                 if pesan_voucher == "1":
                     if accounts["saldo_emoney"] >= 5000:
-                        saldo_emoney = accounts["saldo_emoney"] - 5000
-                        accounts["saldo_emoney"] = saldo_emoney
-                        print("Selamat! Pembelian anda berhasil! Voucher Listrik anda :", random.choice(voucher_5000))
-                        print("Sisa Saldo anda :",accounts["saldo_emoney"])
-                        input("Tekan enter untuk kembali!")
+                        beli_voucher(5000, voucher_5000)
                         break
                     else:
                         print("Saldo anda tidak cukup! Silahkan Top UP Saldo E-Money anda!")
@@ -70,11 +90,7 @@ while menu == "yes":
                         break
                 elif pesan_voucher == "2":
                     if accounts["saldo_emoney"] >= 10000:
-                        saldo_emoney = accounts["saldo_emoney"] - 10000
-                        accounts["saldo_emoney"] = saldo_emoney
-                        print("Selamat! Pembelian anda berhasil! Voucher Listrik anda :", random.choice(voucher_10000))
-                        print("Sisa Saldo anda :",accounts["saldo_emoney"])
-                        input("Tekan enter untuk kembali!")
+                        beli_voucher(10000, voucher_10000)
                         break
                     else:
                         print("Saldo anda tidak cukup! Silahkan Top UP Saldo E-Money anda!")
@@ -82,11 +98,7 @@ while menu == "yes":
                         break
                 elif pesan_voucher == "3":
                     if accounts["saldo_emoney"] >= 25000:
-                        saldo_emoney = accounts["saldo_emoney"] - 25000
-                        accounts["saldo_emoney"] = saldo_emoney
-                        print("Selamat! Pembelian anda berhasil! Voucher Listrik anda :", random.choice(voucher_25000))
-                        print("Sisa Saldo anda :",accounts["saldo_emoney"])
-                        input("Tekan enter untuk kembali!")
+                        beli_voucher(25000, voucher_25000)
                         break
                     else:
                         print("Saldo anda tidak cukup! Silahkan Top UP Saldo E-Money anda!")
@@ -94,11 +106,7 @@ while menu == "yes":
                         break
                 elif pesan_voucher == "4":
                     if accounts["saldo_emoney"] >= 50000:
-                        saldo_emoney = accounts["saldo_emoney"] - 50000
-                        accounts["saldo_emoney"] = saldo_emoney
-                        print("Selamat! Pembelian anda berhasil! Voucher Listrik anda :", random.choice(voucher_50000))
-                        print("Sisa Saldo anda :",accounts["saldo_emoney"])
-                        input("Tekan enter untuk kembali!")
+                        beli_voucher(50000, voucher_50000)
                         break
                     else:
                         print("Saldo anda tidak cukup! Silahkan Top UP Saldo E-Money anda!")
@@ -106,11 +114,7 @@ while menu == "yes":
                         break
                 elif pesan_voucher == "5":
                     if accounts["saldo_emoney"] >= 100000:
-                        saldo_emoney = accounts["saldo_emoney"] - 100000
-                        accounts["saldo_emoney"] = saldo_emoney
-                        print("Selamat! Pembelian anda berhasil! Voucher Listrik anda :", random.choice(voucher_100000))
-                        print("Sisa Saldo anda :",accounts["saldo_emoney"])
-                        input("Tekan enter untuk kembali!")
+                        beli_voucher(100000, voucher_100000)
                         break
                     else:
                         print("Saldo anda tidak cukup! Silahkan Top UP Saldo E-Money anda!")
@@ -128,57 +132,39 @@ while menu == "yes":
                 break
     elif menu_utama == "2":
         while login == "gagal":
-            os.system('cls||clear')
-            print("Silahkan Login Terlebih dahulu!")
-            login_username = str(input("Masukkan Username : "))
-            login_password = str(getpass.getpass("Masukkan Password : "))
+            signin()
             if login_username == accounts["username"] and login_password == accounts["password"]:
                 os.system('cls||clear')
                 reedem = (input("Login Berhasil! Silahkan Masukkan Kode Voucher Anda : "))
                 if reedem in voucher_5000:
-                    saldo_listrik = accounts["saldo_listrik"] + 5000
-                    accounts["saldo_listrik"] = saldo_listrik
+                    redeem_voucher(5000)
                     used = list(voucher_5000)
                     used.remove(reedem)
                     voucher_5000 = tuple(used)
-                    print("Selamat! Kode Voucher anda berhasil di Reedem! Total Saldo Token Listrik anda : ",accounts["saldo_listrik"])
-                    input("Tekan enter untuk kembali!")
                     break
                 elif reedem in voucher_10000:
-                    saldo_listrik = accounts["saldo_listrik"] + 10000
-                    accounts["saldo_listrik"] = saldo_listrik
+                    redeem_voucher(10000)
                     used = list(voucher_10000)
                     used.remove(reedem)
                     voucher_10000 = tuple(used)
-                    print("Selamat! Kode Voucher anda berhasil di Reedem! Total Saldo Token Listrik anda : ",accounts["saldo_listrik"])
-                    input("Tekan enter untuk kembali!")
                     break
                 elif reedem in voucher_25000:
-                    saldo_listrik = accounts["saldo_listrik"] + 25000
-                    accounts["saldo_listrik"] = saldo_listrik
+                    redeem_voucher(25000)
                     used = list(voucher_25000)
                     used.remove(reedem)
                     voucher_25000 = tuple(used)
-                    print("Selamat! Kode Voucher anda berhasil di Reedem! Total Saldo Token Listrik anda : ",accounts["saldo_listrik"])
-                    input("Tekan enter untuk kembali!")
                     break
                 elif reedem in voucher_50000:
-                    saldo_listrik = accounts["saldo_listrik"] + 50000
-                    accounts["saldo_listrik"] = saldo_listrik
+                    redeem_voucher(50000)
                     used = list(voucher_50000)
                     used.remove(reedem)
                     voucher_50000 = tuple(used)
-                    print("Selamat! Kode Voucher anda berhasil di Reedem! Total Saldo Token Listrik anda : ",accounts["saldo_listrik"])
-                    input("Tekan enter untuk kembali!")
                     break
                 elif reedem in voucher_100000:
-                    saldo_listrik = accounts["saldo_listrik"] + 100000
-                    accounts["saldo_listrik"] = saldo_listrik
+                    redeem_voucher(100000)
                     used = list(voucher_100000)
                     used.remove(reedem)
                     voucher_100000 = tuple(used)
-                    print("Selamat! Kode Voucher anda berhasil di Reedem! Total Saldo Token Listrik anda : ",accounts["saldo_listrik"])
-                    input("Tekan enter untuk kembali!")
                     break
                 else:
                     print("Kode Voucher anda salah atau sudah terpakai!")
@@ -190,10 +176,7 @@ while menu == "yes":
                 break
     elif menu_utama == "3":
         while login == "gagal":
-            os.system('cls||clear')
-            print("Silahkan Login Terlebih dahulu!")
-            login_username = str(input("Masukkan Username : "))
-            login_password = str(getpass.getpass("Masukkan Password : "))
+            signin()
             if login_username == accounts["username"] and login_password == accounts["password"]:
                 os.system('cls||clear')
                 print("Halo", accounts["nama"], "! Mau Pilih yang mana?")
@@ -202,16 +185,10 @@ while menu == "yes":
                 print("3. Kembali")
                 pesan_saldo = (input("Masukkan Pilihan Anda : "))
                 if pesan_saldo == "1":
-                    saldo_emoney = accounts["saldo_emoney"] + 50000
-                    accounts["saldo_emoney"] = saldo_emoney
-                    print("Saldo E-Money anda sudah ditambahkan Total Saldo :",accounts["saldo_emoney"])
-                    input("Tekan enter untuk kembali!")
+                    emoney(50000)
                     break
                 elif pesan_saldo == "2":
-                    saldo_emoney = accounts["saldo_emoney"] + 100000
-                    accounts["saldo_emoney"] = saldo_emoney
-                    print("Saldo E-Money anda sudah ditambahkan Total Saldo :", accounts["saldo_emoney"])
-                    input("Tekan enter untuk kembali!")
+                    emoney(100000)
                     break
                 elif pesan_saldo == "3":
                     break
@@ -241,10 +218,7 @@ while menu == "yes":
             continue
     elif menu_utama == "5":
         while login == "gagal":
-            os.system('cls||clear')
-            print("Silahkan Login Terlebih dahulu!")
-            login_username = str(input("Masukkan Username : "))
-            login_password = str(getpass.getpass("Masukkan Password : "))
+            signin()
             if login_username == accounts["username"] and login_password == accounts["password"]:
                 os.system('cls||clear')
                 new_pass = str(getpass.getpass("Masukkan Password Baru : "))
