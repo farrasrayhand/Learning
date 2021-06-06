@@ -20,7 +20,7 @@ accounts = {
     "nama": "Muhammad Farras Rayhand",
     "saldo_listrik": 50000,
     "saldo_emoney": 10000,
-    "nomor_listrik" : 19216811
+    "nomor_listrik" : "19216811"
     }
 
 def beli_voucher(paket, nominal):
@@ -203,7 +203,7 @@ while menu == "yes":
                 break
     elif menu_utama == "4":
         os.system('cls||clear')
-        num_listrik = int(input("Masukkan Nomor Listrik anda : "))
+        num_listrik = str(input("Masukkan Nomor Listrik anda : "))
         if num_listrik == accounts["nomor_listrik"]:
             print("Nama :",accounts["nama"])
             print("Username :",accounts["username"])
