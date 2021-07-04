@@ -21,7 +21,7 @@ accounts = {
 def menu():
     os.system('cls||clear')
     print("-----------------------------------------------------")
-    print("----------------TOKO PADIA---------------")
+    print("-------------------TOKO PADIA------------------")
     print("-----------------------------------------------------\n")
     print("Saldo anda :", accounts["saldo_emoney"])
     print("\n")
@@ -43,8 +43,14 @@ def signin():
     global login_username
     global login_password
     os.system('cls||clear')
-    print(login)
+    print("Salah Password :",login)
+    print("Jika anda salah memasukkan username atau password sebanyak 3 kali maka akun akan terblokir!\n\n")
     print("Silahkan Login Terlebih dahulu!")
+    print("username :",accounts["username"])
+    print("password :", accounts["password"])
+    print("------------------------------------------------------")
+    print("----------------TOKO PADIA LOGIN PORTAL---------------")
+    print("------------------------------------------------------\n")
     login_username = str(input("Masukkan Username : "))
     login_password = str(getpass.getpass("Masukkan Password : "))
 
