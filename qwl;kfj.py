@@ -197,10 +197,10 @@ while login_status == "berhasil":
         os.system('cls||clear')
         konfirmasi_beli("Baju Olahraga", 150000)
         voucher_fashion2(150000)
-    if pilih_menu == "3":
+    elif pilih_menu == "3":
         konfirmasi_beli("Bakso", 25000)
         voucher_makanan3(25000)
-    if pilih_menu == "4":
+    elif pilih_menu == "4":
         os.system('cls||clear')
         print("Halo", accounts["nama"], "! Mau Pilih yang mana?")
         print("1. Saldo 50.000")
@@ -217,12 +217,11 @@ while login_status == "berhasil":
             os.system('cls||clear')
             print("Masukkan Anda Salah!")
             input("Tekan enter untuk kembali!")
-    if pilih_menu == "5":
+    elif pilih_menu == "5":
         os.system('cls||clear')
         promo_today()
         input("")
-    if pilih_menu == "6":
+    elif pilih_menu == "6":
         exit()
     else:
         input("Masukkan anda Salah!")
-
