@@ -223,4 +223,6 @@ while login_status == "berhasil":
         input("")
     if pilih_menu == "6":
         exit()
+    else:
+        input("Masukkan anda Salah!")
 
