@@ -1,1 +1,51 @@
-<mxfile host="app.diagrams.net" modified="2021-10-24T12:04:37.617Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.54 Safari/537.36 Edg/95.0.1020.30" version="15.5.5" etag="r0u749HOqxa2bz5h6-Y4" type="github"><diagram id="gXGKH-eIYWSre5i7fgyD">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2021-10-24T12:22:10.450Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.54 Safari/537.36 Edg/95.0.1020.30" etag="m0PBaXneoglI0RvdDTE9" version="15.5.5" type="github">
+  <diagram id="gXGKH-eIYWSre5i7fgyD" name="Page-1">
+    <mxGraphModel dx="1422" dy="754" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="5X2iJ-6Fj0rW8y-voKlt-2" value="Distributor" style="swimlane;" vertex="1" parent="1">
+          <mxGeometry x="40" y="60" width="200" height="630" as="geometry" />
+        </mxCell>
+        <mxCell id="5X2iJ-6Fj0rW8y-voKlt-9" value="Memasukkan Anggota Baru" style="shape=manualInput;whiteSpace=wrap;html=1;dashed=0;size=15;" vertex="1" parent="5X2iJ-6Fj0rW8y-voKlt-2">
+          <mxGeometry x="50" y="100" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="5X2iJ-6Fj0rW8y-voKlt-3" value="Agen" style="swimlane;" vertex="1" parent="1">
+          <mxGeometry x="240" y="60" width="200" height="630" as="geometry" />
+        </mxCell>
+        <mxCell id="5X2iJ-6Fj0rW8y-voKlt-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="5X2iJ-6Fj0rW8y-voKlt-3" source="5X2iJ-6Fj0rW8y-voKlt-6" target="5X2iJ-6Fj0rW8y-voKlt-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5X2iJ-6Fj0rW8y-voKlt-6" value="Start" style="html=1;dashed=0;whitespace=wrap;shape=mxgraph.dfd.start" vertex="1" parent="5X2iJ-6Fj0rW8y-voKlt-3">
+          <mxGeometry x="60" y="40" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="5X2iJ-6Fj0rW8y-voKlt-7" value="Pendaftaran&lt;br&gt;Agen" style="verticalLabelPosition=middle;verticalAlign=middle;html=1;shape=trapezoid;perimeter=trapezoidPerimeter;whiteSpace=wrap;size=0.23;arcSize=10;flipV=1;labelPosition=center;align=center;" vertex="1" parent="5X2iJ-6Fj0rW8y-voKlt-3">
+          <mxGeometry x="50" y="100" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="5X2iJ-6Fj0rW8y-voKlt-13" value="Diterima menjadi Agen" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.document2;whiteSpace=wrap;size=0.25;" vertex="1" parent="5X2iJ-6Fj0rW8y-voKlt-3">
+          <mxGeometry x="60" y="190" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="5X2iJ-6Fj0rW8y-voKlt-4" value="Konsumer" style="swimlane;" vertex="1" parent="1">
+          <mxGeometry x="440" y="60" width="200" height="630" as="geometry" />
+        </mxCell>
+        <mxCell id="5X2iJ-6Fj0rW8y-voKlt-12" value="" style="endArrow=none;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="5X2iJ-6Fj0rW8y-voKlt-9" target="5X2iJ-6Fj0rW8y-voKlt-7">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="120" y="320" as="sourcePoint" />
+            <mxPoint x="310" y="230" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="270" y="200" />
+              <mxPoint x="240" y="180" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5X2iJ-6Fj0rW8y-voKlt-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="5X2iJ-6Fj0rW8y-voKlt-9" target="5X2iJ-6Fj0rW8y-voKlt-13">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="140" y="280" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
