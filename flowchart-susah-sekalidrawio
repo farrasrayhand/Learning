@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-10-30T11:37:31.447Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.54 Safari/537.36 Edg/95.0.1020.30" etag="lsrEGcolSZvwodp7jRT3" version="15.5.4" type="github">
+<mxfile host="app.diagrams.net" modified="2021-10-30T11:48:16.707Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.54 Safari/537.36 Edg/95.0.1020.30" etag="Yxu-kTRfGaLclrCVO1Oq" version="15.5.4" type="github">
   <diagram id="gXGKH-eIYWSre5i7fgyD" name="Page-1">
     <mxGraphModel dx="1038" dy="579" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -65,15 +65,6 @@
         </mxCell>
         <mxCell id="IPXtwFc50cwCFc1b4E-K-10" value="Melakukan pembayaran" style="verticalLabelPosition=middle;verticalAlign=middle;html=1;shape=trapezoid;perimeter=trapezoidPerimeter;whiteSpace=wrap;size=0.23;arcSize=10;flipV=1;labelPosition=center;align=center;" parent="5X2iJ-6Fj0rW8y-voKlt-3" vertex="1">
           <mxGeometry x="60" y="370" width="100" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="IPXtwFc50cwCFc1b4E-K-14" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="5X2iJ-6Fj0rW8y-voKlt-3" source="IPXtwFc50cwCFc1b4E-K-11" target="IPXtwFc50cwCFc1b4E-K-13" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="IPXtwFc50cwCFc1b4E-K-11" value="Bukti Pembayaran" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.document2;whiteSpace=wrap;size=0.25;" parent="5X2iJ-6Fj0rW8y-voKlt-3" vertex="1">
-          <mxGeometry x="60" y="480" width="100" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="IPXtwFc50cwCFc1b4E-K-13" value="Mengirim Bukti Pembayaran" style="verticalLabelPosition=middle;verticalAlign=middle;html=1;shape=trapezoid;perimeter=trapezoidPerimeter;whiteSpace=wrap;size=0.23;arcSize=10;flipV=1;labelPosition=center;align=center;" parent="5X2iJ-6Fj0rW8y-voKlt-3" vertex="1">
-          <mxGeometry x="60" y="570" width="100" height="60" as="geometry" />
         </mxCell>
         <mxCell id="IPXtwFc50cwCFc1b4E-K-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="5X2iJ-6Fj0rW8y-voKlt-3" source="IPXtwFc50cwCFc1b4E-K-18" target="IPXtwFc50cwCFc1b4E-K-19" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -153,14 +144,14 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="5X2iJ-6Fj0rW8y-voKlt-37" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" target="IPXtwFc50cwCFc1b4E-K-11" edge="1">
+        <mxCell id="5X2iJ-6Fj0rW8y-voKlt-37" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="350" y="510" />
               <mxPoint x="350" y="510" />
             </Array>
             <mxPoint x="350" y="490" as="sourcePoint" />
-            <mxPoint x="140" y="520" as="targetPoint" />
+            <mxPoint x="350" y="540" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="5X2iJ-6Fj0rW8y-voKlt-40" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="IPXtwFc50cwCFc1b4E-K-17" target="IPXtwFc50cwCFc1b4E-K-18" edge="1">
@@ -187,12 +178,13 @@
             <mxPoint x="300" y="270" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="IPXtwFc50cwCFc1b4E-K-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="IPXtwFc50cwCFc1b4E-K-13" target="IPXtwFc50cwCFc1b4E-K-12" edge="1">
+        <mxCell id="IPXtwFc50cwCFc1b4E-K-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" target="IPXtwFc50cwCFc1b4E-K-12" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="220" y="660" />
               <mxPoint x="220" y="560" />
             </Array>
+            <mxPoint x="311.5" y="660" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
       </root>
