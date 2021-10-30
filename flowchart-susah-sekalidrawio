@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-10-30T11:51:28.489Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.54 Safari/537.36 Edg/95.0.1020.30" etag="K22uYhlbZfvEH0344rsJ" version="15.5.4" type="github">
+<mxfile host="app.diagrams.net" modified="2021-10-30T11:52:09.410Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.54 Safari/537.36 Edg/95.0.1020.30" etag="HdZfAzXF-mKEsp0PquOr" version="15.5.4" type="github">
   <diagram id="gXGKH-eIYWSre5i7fgyD" name="Page-1">
     <mxGraphModel dx="1038" dy="579" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -80,7 +80,7 @@
           <mxGeometry x="60" y="730" width="100" height="60" as="geometry" />
         </mxCell>
         <mxCell id="IPXtwFc50cwCFc1b4E-K-19" value="Melakukan Pemasaran" style="verticalLabelPosition=middle;verticalAlign=middle;html=1;shape=trapezoid;perimeter=trapezoidPerimeter;whiteSpace=wrap;size=0.23;arcSize=10;flipV=1;labelPosition=center;align=center;" parent="5X2iJ-6Fj0rW8y-voKlt-3" vertex="1">
-          <mxGeometry x="60" y="940" width="100" height="60" as="geometry" />
+          <mxGeometry x="60" y="890" width="100" height="60" as="geometry" />
         </mxCell>
         <mxCell id="NdSQTXg-DMbZqEv1QS4n-3" value="Formulir Pendaftaran" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;dashed=0;flipH=1;" vertex="1" parent="5X2iJ-6Fj0rW8y-voKlt-3">
           <mxGeometry x="50" y="100" width="100" height="60" as="geometry" />
@@ -160,8 +160,7 @@
         <mxCell id="5X2iJ-6Fj0rW8y-voKlt-48" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="IPXtwFc50cwCFc1b4E-K-19" target="IPXtwFc50cwCFc1b4E-K-21" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="420" y="1030" />
-              <mxPoint x="420" y="980" />
+              <mxPoint x="389" y="980" />
             </Array>
             <mxPoint x="400" y="1060" as="sourcePoint" />
             <mxPoint x="480" y="970" as="targetPoint" />
