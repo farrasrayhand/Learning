@@ -1,11 +1,11 @@
-<mxfile host="app.diagrams.net" modified="2021-11-10T12:12:08.877Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.54 Safari/537.36 Edg/95.0.1020.40" etag="dZlCe14eYzm5J9TmtCVJ" version="15.7.2" type="github">
+<mxfile host="app.diagrams.net" modified="2021-11-10T12:21:22.400Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.54 Safari/537.36 Edg/95.0.1020.40" etag="MOSooZ-9VK_0WuH_EPpp" version="15.7.2" type="github">
   <diagram id="FO9GJOeLVoTxYjxvB3Jg" name="Page-1">
     <mxGraphModel dx="1209" dy="662" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="S02iKapHucoCpBGr2LOL-31" value="BAAK" style="swimlane;" vertex="1" parent="1">
-          <mxGeometry x="80" y="60" width="200" height="1380" as="geometry" />
+          <mxGeometry x="80" y="60" width="200" height="1550" as="geometry" />
         </mxCell>
         <mxCell id="S02iKapHucoCpBGr2LOL-38" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="S02iKapHucoCpBGr2LOL-31" source="S02iKapHucoCpBGr2LOL-36" target="S02iKapHucoCpBGr2LOL-37">
           <mxGeometry relative="1" as="geometry" />
@@ -23,13 +23,13 @@
           <mxGeometry x="50" y="780" width="100" height="60" as="geometry" />
         </mxCell>
         <mxCell id="S02iKapHucoCpBGr2LOL-32" value="FRONT OFFICE" style="swimlane;" vertex="1" parent="1">
-          <mxGeometry x="480" y="60" width="200" height="1380" as="geometry" />
+          <mxGeometry x="480" y="60" width="200" height="1550" as="geometry" />
         </mxCell>
         <mxCell id="S02iKapHucoCpBGr2LOL-46" value="SLIP Pembayaran SPP" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;dashed=0;flipH=1;" vertex="1" parent="S02iKapHucoCpBGr2LOL-32">
           <mxGeometry x="50" y="35" width="100" height="70" as="geometry" />
         </mxCell>
         <mxCell id="S02iKapHucoCpBGr2LOL-33" value="MAHASISWA" style="swimlane;startSize=23;" vertex="1" parent="1">
-          <mxGeometry x="280" y="60" width="200" height="1380" as="geometry" />
+          <mxGeometry x="280" y="60" width="200" height="1550" as="geometry" />
         </mxCell>
         <mxCell id="S02iKapHucoCpBGr2LOL-44" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.071;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="S02iKapHucoCpBGr2LOL-33" source="S02iKapHucoCpBGr2LOL-39" target="S02iKapHucoCpBGr2LOL-41">
           <mxGeometry relative="1" as="geometry">
@@ -84,17 +84,23 @@
         <mxCell id="S02iKapHucoCpBGr2LOL-88" value="Cuti Kuliah" style="verticalLabelPosition=middle;verticalAlign=middle;html=1;shape=trapezoid;perimeter=trapezoidPerimeter;whiteSpace=wrap;size=0.23;arcSize=10;flipV=1;labelPosition=center;align=center;" vertex="1" parent="S02iKapHucoCpBGr2LOL-33">
           <mxGeometry x="30" y="1060" width="130" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="S02iKapHucoCpBGr2LOL-94" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="S02iKapHucoCpBGr2LOL-33" source="S02iKapHucoCpBGr2LOL-90" target="S02iKapHucoCpBGr2LOL-93">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="S02iKapHucoCpBGr2LOL-90" value="Slip Bukti Pembayaran SPP" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.document2;whiteSpace=wrap;size=0.25;" vertex="1" parent="S02iKapHucoCpBGr2LOL-33">
           <mxGeometry x="45" y="1190" width="100" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="S02iKapHucoCpBGr2LOL-93" value="&#xa;&#xa;Foto Copy KHS, Slip&#xa;Pembayaran SPP,&#xa;Dan Form KRS&#xa;Sementara&#xa;&#xa;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.multi-document;whiteSpace=wrap;" vertex="1" parent="S02iKapHucoCpBGr2LOL-33">
+          <mxGeometry x="15" y="1300" width="160" height="90" as="geometry" />
+        </mxCell>
         <mxCell id="S02iKapHucoCpBGr2LOL-34" value="DOSEN PA" style="swimlane;" vertex="1" parent="1">
-          <mxGeometry x="880" y="60" width="200" height="1380" as="geometry" />
+          <mxGeometry x="880" y="60" width="200" height="1550" as="geometry" />
         </mxCell>
         <mxCell id="S02iKapHucoCpBGr2LOL-83" value="Form Cuti Kuliah" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.document2;whiteSpace=wrap;size=0.25;" vertex="1" parent="S02iKapHucoCpBGr2LOL-34">
           <mxGeometry x="50" y="780" width="100" height="60" as="geometry" />
         </mxCell>
         <mxCell id="S02iKapHucoCpBGr2LOL-35" value="BANK" style="swimlane;" vertex="1" parent="1">
-          <mxGeometry x="680" y="60" width="200" height="1380" as="geometry" />
+          <mxGeometry x="680" y="60" width="200" height="1550" as="geometry" />
         </mxCell>
         <mxCell id="S02iKapHucoCpBGr2LOL-52" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="S02iKapHucoCpBGr2LOL-35" source="S02iKapHucoCpBGr2LOL-49" target="S02iKapHucoCpBGr2LOL-53">
           <mxGeometry relative="1" as="geometry">
