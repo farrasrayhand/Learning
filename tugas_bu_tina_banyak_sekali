@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-11-10T12:36:46.462Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.54 Safari/537.36 Edg/95.0.1020.40" etag="Y7BS12nqje2mveGF-4_W" version="15.7.2" type="github">
+<mxfile host="app.diagrams.net" modified="2021-11-10T12:38:13.786Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.54 Safari/537.36 Edg/95.0.1020.40" etag="x72OPkiCEtjD1GXSzGZm" version="15.7.2" type="github">
   <diagram id="FO9GJOeLVoTxYjxvB3Jg" name="Page-1">
     <mxGraphModel dx="1209" dy="662" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -25,8 +25,11 @@
         <mxCell id="S02iKapHucoCpBGr2LOL-107" value="Cetak KRS" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="S02iKapHucoCpBGr2LOL-31">
           <mxGeometry x="30" y="1670" width="120" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="S02iKapHucoCpBGr2LOL-114" value="&#xa;&#xa;&lt;span style=&quot;color: rgb(0, 0, 0); font-family: helvetica; font-size: 12px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: center; text-indent: 0px; text-transform: none; word-spacing: 0px; background-color: rgb(248, 249, 250); display: inline; float: none;&quot;&gt;KRS&lt;/span&gt;&#xa;&#xa;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.document2;whiteSpace=wrap;size=0.25;" vertex="1" parent="S02iKapHucoCpBGr2LOL-31">
+          <mxGeometry x="30" y="1880" width="100" height="60" as="geometry" />
+        </mxCell>
         <mxCell id="S02iKapHucoCpBGr2LOL-32" value="FRONT OFFICE" style="swimlane;" vertex="1" parent="1">
-          <mxGeometry x="480" y="60" width="200" height="1880" as="geometry" />
+          <mxGeometry x="480" y="60" width="200" height="2080" as="geometry" />
         </mxCell>
         <mxCell id="S02iKapHucoCpBGr2LOL-46" value="SLIP Pembayaran SPP" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;dashed=0;flipH=1;" vertex="1" parent="S02iKapHucoCpBGr2LOL-32">
           <mxGeometry x="50" y="35" width="100" height="70" as="geometry" />
@@ -119,11 +122,17 @@
         <mxCell id="S02iKapHucoCpBGr2LOL-104" value="Mencetak KRS" style="verticalLabelPosition=middle;verticalAlign=middle;html=1;shape=trapezoid;perimeter=trapezoidPerimeter;whiteSpace=wrap;size=0.23;arcSize=10;flipV=1;labelPosition=center;align=center;" vertex="1" parent="S02iKapHucoCpBGr2LOL-33">
           <mxGeometry x="35" y="1670" width="130" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="S02iKapHucoCpBGr2LOL-109" value="KRS" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.document2;whiteSpace=wrap;size=0.25;" vertex="1" parent="S02iKapHucoCpBGr2LOL-33">
+        <mxCell id="S02iKapHucoCpBGr2LOL-113" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=10;" edge="1" parent="S02iKapHucoCpBGr2LOL-33" source="S02iKapHucoCpBGr2LOL-109" target="S02iKapHucoCpBGr2LOL-112">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="S02iKapHucoCpBGr2LOL-109" value="&#xa;&#xa;&lt;span style=&quot;color: rgb(0, 0, 0); font-family: helvetica; font-size: 12px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: center; text-indent: 0px; text-transform: none; word-spacing: 0px; background-color: rgb(248, 249, 250); display: inline; float: none;&quot;&gt;KRS&lt;/span&gt;&#xa;&#xa;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.document2;whiteSpace=wrap;size=0.25;" vertex="1" parent="S02iKapHucoCpBGr2LOL-33">
           <mxGeometry x="50" y="1780" width="100" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="S02iKapHucoCpBGr2LOL-112" value="Menggandakan&lt;br&gt;KRS" style="verticalLabelPosition=middle;verticalAlign=middle;html=1;shape=trapezoid;perimeter=trapezoidPerimeter;whiteSpace=wrap;size=0.23;arcSize=10;flipV=1;labelPosition=center;align=center;" vertex="1" parent="S02iKapHucoCpBGr2LOL-33">
+          <mxGeometry x="35" y="1880" width="130" height="60" as="geometry" />
+        </mxCell>
         <mxCell id="S02iKapHucoCpBGr2LOL-34" value="DOSEN PA" style="swimlane;" vertex="1" parent="1">
-          <mxGeometry x="880" y="60" width="200" height="1880" as="geometry" />
+          <mxGeometry x="880" y="60" width="200" height="2080" as="geometry" />
         </mxCell>
         <mxCell id="S02iKapHucoCpBGr2LOL-83" value="Form Cuti Kuliah" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.document2;whiteSpace=wrap;size=0.25;" vertex="1" parent="S02iKapHucoCpBGr2LOL-34">
           <mxGeometry x="50" y="780" width="100" height="60" as="geometry" />
@@ -137,8 +146,11 @@
         <mxCell id="S02iKapHucoCpBGr2LOL-101" value="Disetujui?" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" vertex="1" parent="S02iKapHucoCpBGr2LOL-34">
           <mxGeometry x="50" y="1560" width="100" height="100" as="geometry" />
         </mxCell>
+        <mxCell id="S02iKapHucoCpBGr2LOL-115" value="&#xa;&#xa;&lt;span style=&quot;color: rgb(0, 0, 0); font-family: helvetica; font-size: 12px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: center; text-indent: 0px; text-transform: none; word-spacing: 0px; background-color: rgb(248, 249, 250); display: inline; float: none;&quot;&gt;KRS&lt;/span&gt;&#xa;&#xa;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.document2;whiteSpace=wrap;size=0.25;" vertex="1" parent="S02iKapHucoCpBGr2LOL-34">
+          <mxGeometry x="50" y="1880" width="100" height="60" as="geometry" />
+        </mxCell>
         <mxCell id="S02iKapHucoCpBGr2LOL-35" value="BANK" style="swimlane;" vertex="1" parent="1">
-          <mxGeometry x="680" y="60" width="200" height="1880" as="geometry" />
+          <mxGeometry x="680" y="60" width="200" height="2080" as="geometry" />
         </mxCell>
         <mxCell id="S02iKapHucoCpBGr2LOL-52" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="S02iKapHucoCpBGr2LOL-35" source="S02iKapHucoCpBGr2LOL-49" target="S02iKapHucoCpBGr2LOL-53">
           <mxGeometry relative="1" as="geometry">
@@ -259,6 +271,12 @@
               <mxPoint x="170" y="1870" />
             </Array>
           </mxGeometry>
+        </mxCell>
+        <mxCell id="S02iKapHucoCpBGr2LOL-116" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;fontSize=10;" edge="1" parent="1" source="S02iKapHucoCpBGr2LOL-112" target="S02iKapHucoCpBGr2LOL-115">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="S02iKapHucoCpBGr2LOL-117" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;fontSize=10;" edge="1" parent="1" source="S02iKapHucoCpBGr2LOL-112" target="S02iKapHucoCpBGr2LOL-114">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
