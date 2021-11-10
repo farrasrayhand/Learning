@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-11-10T11:17:38.717Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.54 Safari/537.36 Edg/95.0.1020.40" etag="5dl4HDpzuPlmLHks35r4" version="15.7.2" type="github">
+<mxfile host="app.diagrams.net" modified="2021-11-10T11:19:33.527Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.54 Safari/537.36 Edg/95.0.1020.40" etag="uKIFLTiGHG-A_Xmql20G" version="15.7.2" type="github">
   <diagram id="FO9GJOeLVoTxYjxvB3Jg" name="Page-1">
     <mxGraphModel dx="1209" dy="662" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -46,7 +46,7 @@
           <mxGeometry x="30" y="40" width="140" height="60" as="geometry" />
         </mxCell>
         <mxCell id="S02iKapHucoCpBGr2LOL-42" value="Membayar SPP" style="verticalLabelPosition=middle;verticalAlign=middle;html=1;shape=trapezoid;perimeter=trapezoidPerimeter;whiteSpace=wrap;size=0.23;arcSize=10;flipV=1;labelPosition=center;align=center;" vertex="1" parent="S02iKapHucoCpBGr2LOL-33">
-          <mxGeometry x="30" y="120" width="140" height="60" as="geometry" />
+          <mxGeometry x="30" y="110" width="140" height="60" as="geometry" />
         </mxCell>
         <mxCell id="S02iKapHucoCpBGr2LOL-34" value="DOSEN PA" style="swimlane;" vertex="1" parent="1">
           <mxGeometry x="880" y="60" width="200" height="570" as="geometry" />
