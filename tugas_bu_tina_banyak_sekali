@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-11-10T11:31:33.166Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.54 Safari/537.36 Edg/95.0.1020.40" etag="30fq1o6XAJ7n84SD-9dM" version="15.7.2" type="github">
+<mxfile host="app.diagrams.net" modified="2021-11-10T11:41:04.231Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.54 Safari/537.36 Edg/95.0.1020.40" etag="v1RlmEWWDm3bPxO8sGip" version="15.7.2" type="github">
   <diagram id="FO9GJOeLVoTxYjxvB3Jg" name="Page-1">
     <mxGraphModel dx="1209" dy="662" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -54,6 +54,31 @@
         <mxCell id="S02iKapHucoCpBGr2LOL-35" value="BANK" style="swimlane;" vertex="1" parent="1">
           <mxGeometry x="680" y="60" width="200" height="570" as="geometry" />
         </mxCell>
+        <mxCell id="S02iKapHucoCpBGr2LOL-52" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="S02iKapHucoCpBGr2LOL-35" source="S02iKapHucoCpBGr2LOL-49" target="S02iKapHucoCpBGr2LOL-53">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="99.40000000000009" y="291.67999999999995" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="S02iKapHucoCpBGr2LOL-49" value="Menerima Pembayaran" style="verticalLabelPosition=middle;verticalAlign=middle;html=1;shape=trapezoid;perimeter=trapezoidPerimeter;whiteSpace=wrap;size=0.23;arcSize=10;flipV=1;labelPosition=center;align=center;" vertex="1" parent="S02iKapHucoCpBGr2LOL-35">
+          <mxGeometry x="50" y="150" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="S02iKapHucoCpBGr2LOL-55" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="S02iKapHucoCpBGr2LOL-35" source="S02iKapHucoCpBGr2LOL-53" target="S02iKapHucoCpBGr2LOL-54">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="S02iKapHucoCpBGr2LOL-53" value="Cek data pembayaran" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="S02iKapHucoCpBGr2LOL-35">
+          <mxGeometry x="40" y="280" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="S02iKapHucoCpBGr2LOL-57" value="TIDAK" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="S02iKapHucoCpBGr2LOL-35" source="S02iKapHucoCpBGr2LOL-54" target="S02iKapHucoCpBGr2LOL-53">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="20" y="450" />
+              <mxPoint x="20" y="310" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="S02iKapHucoCpBGr2LOL-54" value="Sudah?" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" vertex="1" parent="S02iKapHucoCpBGr2LOL-35">
+          <mxGeometry x="50" y="400" width="100" height="100" as="geometry" />
+        </mxCell>
         <mxCell id="S02iKapHucoCpBGr2LOL-40" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="S02iKapHucoCpBGr2LOL-37" target="S02iKapHucoCpBGr2LOL-39">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
@@ -71,6 +96,9 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="S02iKapHucoCpBGr2LOL-48" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="S02iKapHucoCpBGr2LOL-41" target="S02iKapHucoCpBGr2LOL-46">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="S02iKapHucoCpBGr2LOL-50" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="S02iKapHucoCpBGr2LOL-42" target="S02iKapHucoCpBGr2LOL-49">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
       </root>
