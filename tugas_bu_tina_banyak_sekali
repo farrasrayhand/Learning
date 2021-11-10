@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-11-10T11:05:21.505Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.54 Safari/537.36 Edg/95.0.1020.40" etag="f5BWXPuMXX5CqtmzY25x" version="15.7.2" type="github">
+<mxfile host="app.diagrams.net" modified="2021-11-10T11:12:44.507Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.54 Safari/537.36 Edg/95.0.1020.40" etag="TNedjAHWbtEh3t2izHtU" version="15.7.2" type="github">
   <diagram id="FO9GJOeLVoTxYjxvB3Jg" name="Page-1">
     <mxGraphModel dx="1209" dy="662" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -7,8 +7,14 @@
         <mxCell id="S02iKapHucoCpBGr2LOL-31" value="BAAK" style="swimlane;" vertex="1" parent="1">
           <mxGeometry x="80" y="60" width="200" height="570" as="geometry" />
         </mxCell>
+        <mxCell id="S02iKapHucoCpBGr2LOL-38" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="S02iKapHucoCpBGr2LOL-31" source="S02iKapHucoCpBGr2LOL-36" target="S02iKapHucoCpBGr2LOL-37">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="S02iKapHucoCpBGr2LOL-36" value="START" style="html=1;dashed=0;whitespace=wrap;shape=mxgraph.dfd.start" vertex="1" parent="S02iKapHucoCpBGr2LOL-31">
           <mxGeometry x="60" y="40" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="S02iKapHucoCpBGr2LOL-37" value="Mengumumkan Jadwal Perkuliahan dan waktu registrasi" style="verticalLabelPosition=middle;verticalAlign=middle;html=1;shape=trapezoid;perimeter=trapezoidPerimeter;whiteSpace=wrap;size=0.23;arcSize=10;flipV=1;labelPosition=center;align=center;" vertex="1" parent="S02iKapHucoCpBGr2LOL-31">
+          <mxGeometry x="20" y="110" width="160" height="60" as="geometry" />
         </mxCell>
         <mxCell id="S02iKapHucoCpBGr2LOL-32" value="FRONT OFFICE" style="swimlane;" vertex="1" parent="1">
           <mxGeometry x="480" y="60" width="200" height="570" as="geometry" />
@@ -16,11 +22,42 @@
         <mxCell id="S02iKapHucoCpBGr2LOL-33" value="MAHASISWA" style="swimlane;startSize=23;" vertex="1" parent="1">
           <mxGeometry x="280" y="60" width="200" height="570" as="geometry" />
         </mxCell>
+        <mxCell id="S02iKapHucoCpBGr2LOL-44" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.071;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="S02iKapHucoCpBGr2LOL-33" source="S02iKapHucoCpBGr2LOL-39" target="S02iKapHucoCpBGr2LOL-41">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="100" y="200" />
+              <mxPoint x="20" y="200" />
+              <mxPoint x="20" y="70" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="S02iKapHucoCpBGr2LOL-45" value="Tidak" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="S02iKapHucoCpBGr2LOL-44">
+          <mxGeometry x="-0.3862" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="S02iKapHucoCpBGr2LOL-39" value="Cuti?" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" vertex="1" parent="S02iKapHucoCpBGr2LOL-33">
+          <mxGeometry x="50" y="230" width="100" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="S02iKapHucoCpBGr2LOL-41" value="Mengambil Slip Pembayaran SPP" style="verticalLabelPosition=middle;verticalAlign=middle;html=1;shape=trapezoid;perimeter=trapezoidPerimeter;whiteSpace=wrap;size=0.23;arcSize=10;flipV=1;labelPosition=center;align=center;" vertex="1" parent="S02iKapHucoCpBGr2LOL-33">
+          <mxGeometry x="30" y="40" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="S02iKapHucoCpBGr2LOL-42" value="Membayar SPP" style="verticalLabelPosition=middle;verticalAlign=middle;html=1;shape=trapezoid;perimeter=trapezoidPerimeter;whiteSpace=wrap;size=0.23;arcSize=10;flipV=1;labelPosition=center;align=center;" vertex="1" parent="S02iKapHucoCpBGr2LOL-33">
+          <mxGeometry x="30" y="120" width="140" height="60" as="geometry" />
+        </mxCell>
         <mxCell id="S02iKapHucoCpBGr2LOL-34" value="DOSEN PA" style="swimlane;" vertex="1" parent="1">
           <mxGeometry x="880" y="60" width="200" height="570" as="geometry" />
         </mxCell>
         <mxCell id="S02iKapHucoCpBGr2LOL-35" value="BANK" style="swimlane;" vertex="1" parent="1">
           <mxGeometry x="680" y="60" width="200" height="570" as="geometry" />
+        </mxCell>
+        <mxCell id="S02iKapHucoCpBGr2LOL-40" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="S02iKapHucoCpBGr2LOL-37" target="S02iKapHucoCpBGr2LOL-39">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="270" y="200" />
+              <mxPoint x="270" y="340" />
+            </Array>
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
