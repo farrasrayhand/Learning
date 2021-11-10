@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-11-10T11:19:52.670Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.54 Safari/537.36 Edg/95.0.1020.40" etag="spitJVQCh6pyFX-vPSX6" version="15.7.2" type="github">
+<mxfile host="app.diagrams.net" modified="2021-11-10T11:31:33.166Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.54 Safari/537.36 Edg/95.0.1020.40" etag="30fq1o6XAJ7n84SD-9dM" version="15.7.2" type="github">
   <diagram id="FO9GJOeLVoTxYjxvB3Jg" name="Page-1">
     <mxGraphModel dx="1209" dy="662" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -28,8 +28,8 @@
         <mxCell id="S02iKapHucoCpBGr2LOL-44" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.071;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="S02iKapHucoCpBGr2LOL-33" source="S02iKapHucoCpBGr2LOL-39" target="S02iKapHucoCpBGr2LOL-41">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="100" y="200" />
-              <mxPoint x="20" y="200" />
+              <mxPoint x="100" y="250" />
+              <mxPoint x="20" y="250" />
               <mxPoint x="20" y="70" />
             </Array>
           </mxGeometry>
@@ -40,13 +40,13 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="S02iKapHucoCpBGr2LOL-39" value="Cuti?" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" vertex="1" parent="S02iKapHucoCpBGr2LOL-33">
-          <mxGeometry x="50" y="230" width="100" height="100" as="geometry" />
+          <mxGeometry x="50" y="280" width="100" height="100" as="geometry" />
         </mxCell>
         <mxCell id="S02iKapHucoCpBGr2LOL-41" value="Mengambil Slip Pembayaran SPP" style="verticalLabelPosition=middle;verticalAlign=middle;html=1;shape=trapezoid;perimeter=trapezoidPerimeter;whiteSpace=wrap;size=0.23;arcSize=10;flipV=1;labelPosition=center;align=center;" vertex="1" parent="S02iKapHucoCpBGr2LOL-33">
           <mxGeometry x="30" y="40" width="140" height="60" as="geometry" />
         </mxCell>
         <mxCell id="S02iKapHucoCpBGr2LOL-42" value="Membayar SPP" style="verticalLabelPosition=middle;verticalAlign=middle;html=1;shape=trapezoid;perimeter=trapezoidPerimeter;whiteSpace=wrap;size=0.23;arcSize=10;flipV=1;labelPosition=center;align=center;" vertex="1" parent="S02iKapHucoCpBGr2LOL-33">
-          <mxGeometry x="30" y="110" width="140" height="60" as="geometry" />
+          <mxGeometry x="30" y="150" width="140" height="60" as="geometry" />
         </mxCell>
         <mxCell id="S02iKapHucoCpBGr2LOL-34" value="DOSEN PA" style="swimlane;" vertex="1" parent="1">
           <mxGeometry x="880" y="60" width="200" height="570" as="geometry" />
@@ -58,15 +58,15 @@
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="270" y="200" />
-              <mxPoint x="270" y="340" />
+              <mxPoint x="270" y="390" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="S02iKapHucoCpBGr2LOL-47" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="S02iKapHucoCpBGr2LOL-46" target="S02iKapHucoCpBGr2LOL-42">
+        <mxCell id="S02iKapHucoCpBGr2LOL-47" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="S02iKapHucoCpBGr2LOL-46" target="S02iKapHucoCpBGr2LOL-42">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="580" y="200" />
-              <mxPoint x="434" y="200" />
+              <mxPoint x="580" y="180" />
+              <mxPoint x="380" y="180" />
             </Array>
           </mxGeometry>
         </mxCell>
