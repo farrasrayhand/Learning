@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-11-10T11:41:04.231Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.54 Safari/537.36 Edg/95.0.1020.40" etag="v1RlmEWWDm3bPxO8sGip" version="15.7.2" type="github">
+<mxfile host="app.diagrams.net" modified="2021-11-10T11:44:09.941Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.54 Safari/537.36 Edg/95.0.1020.40" etag="n_EBZEFM39uoHNAL9Y0P" version="15.7.2" type="github">
   <diagram id="FO9GJOeLVoTxYjxvB3Jg" name="Page-1">
     <mxGraphModel dx="1209" dy="662" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -52,7 +52,7 @@
           <mxGeometry x="880" y="60" width="200" height="570" as="geometry" />
         </mxCell>
         <mxCell id="S02iKapHucoCpBGr2LOL-35" value="BANK" style="swimlane;" vertex="1" parent="1">
-          <mxGeometry x="680" y="60" width="200" height="570" as="geometry" />
+          <mxGeometry x="680" y="60" width="200" height="810" as="geometry" />
         </mxCell>
         <mxCell id="S02iKapHucoCpBGr2LOL-52" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="S02iKapHucoCpBGr2LOL-35" source="S02iKapHucoCpBGr2LOL-49" target="S02iKapHucoCpBGr2LOL-53">
           <mxGeometry relative="1" as="geometry">
@@ -76,8 +76,14 @@
             </Array>
           </mxGeometry>
         </mxCell>
+        <mxCell id="S02iKapHucoCpBGr2LOL-60" value="YA" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="S02iKapHucoCpBGr2LOL-35" source="S02iKapHucoCpBGr2LOL-54" target="S02iKapHucoCpBGr2LOL-59">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="S02iKapHucoCpBGr2LOL-54" value="Sudah?" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" vertex="1" parent="S02iKapHucoCpBGr2LOL-35">
           <mxGeometry x="50" y="400" width="100" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="S02iKapHucoCpBGr2LOL-59" value="Validasi Pembayaran" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="S02iKapHucoCpBGr2LOL-35">
+          <mxGeometry x="40" y="560" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="S02iKapHucoCpBGr2LOL-40" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="S02iKapHucoCpBGr2LOL-37" target="S02iKapHucoCpBGr2LOL-39">
           <mxGeometry relative="1" as="geometry">
