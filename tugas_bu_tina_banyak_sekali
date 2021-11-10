@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-11-10T12:23:11.310Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.54 Safari/537.36 Edg/95.0.1020.40" etag="TmEHPXhj-M04tYDpP237" version="15.7.2" type="github">
+<mxfile host="app.diagrams.net" modified="2021-11-10T12:26:00.444Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.54 Safari/537.36 Edg/95.0.1020.40" etag="WmLBrgspbOdk0kROS-K8" version="15.7.2" type="github">
   <diagram id="FO9GJOeLVoTxYjxvB3Jg" name="Page-1">
-    <mxGraphModel dx="1209" dy="662" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="351" dy="647" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -94,10 +94,10 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="S02iKapHucoCpBGr2LOL-93" value="&lt;font style=&quot;font-size: 10px&quot;&gt;Foto Copy KHS, Slip Pembayaran SPP, Dan Form KRS Sementara&lt;br&gt;&lt;/font&gt;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.multi-document;whiteSpace=wrap;" vertex="1" parent="S02iKapHucoCpBGr2LOL-33">
-          <mxGeometry x="30" y="1300" width="150" height="90" as="geometry" />
+          <mxGeometry x="20" y="1300" width="150" height="90" as="geometry" />
         </mxCell>
         <mxCell id="S02iKapHucoCpBGr2LOL-95" value="Mengurus KRS" style="verticalLabelPosition=middle;verticalAlign=middle;html=1;shape=trapezoid;perimeter=trapezoidPerimeter;whiteSpace=wrap;size=0.23;arcSize=10;flipV=1;labelPosition=center;align=center;" vertex="1" parent="S02iKapHucoCpBGr2LOL-33">
-          <mxGeometry x="40" y="1450" width="130" height="60" as="geometry" />
+          <mxGeometry x="30" y="1450" width="130" height="60" as="geometry" />
         </mxCell>
         <mxCell id="S02iKapHucoCpBGr2LOL-97" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=10;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="S02iKapHucoCpBGr2LOL-33" source="S02iKapHucoCpBGr2LOL-85" target="S02iKapHucoCpBGr2LOL-95">
           <mxGeometry relative="1" as="geometry">
@@ -118,6 +118,9 @@
         </mxCell>
         <mxCell id="S02iKapHucoCpBGr2LOL-83" value="Form Cuti Kuliah" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.document2;whiteSpace=wrap;size=0.25;" vertex="1" parent="S02iKapHucoCpBGr2LOL-34">
           <mxGeometry x="50" y="780" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="S02iKapHucoCpBGr2LOL-99" value="Validasi KRS" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="S02iKapHucoCpBGr2LOL-34">
+          <mxGeometry x="40" y="1450" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="S02iKapHucoCpBGr2LOL-35" value="BANK" style="swimlane;" vertex="1" parent="1">
           <mxGeometry x="680" y="60" width="200" height="1550" as="geometry" />
@@ -215,6 +218,9 @@
               <mxPoint x="375" y="1220" />
             </Array>
           </mxGeometry>
+        </mxCell>
+        <mxCell id="S02iKapHucoCpBGr2LOL-100" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=10;" edge="1" parent="1" source="S02iKapHucoCpBGr2LOL-95" target="S02iKapHucoCpBGr2LOL-99">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
