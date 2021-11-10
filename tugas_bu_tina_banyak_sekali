@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-11-10T11:04:31.504Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.54 Safari/537.36 Edg/95.0.1020.40" etag="66bv7F2vdRcnS3qGmK91" version="15.7.2" type="github">
+<mxfile host="app.diagrams.net" modified="2021-11-10T11:05:21.505Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.54 Safari/537.36 Edg/95.0.1020.40" etag="f5BWXPuMXX5CqtmzY25x" version="15.7.2" type="github">
   <diagram id="FO9GJOeLVoTxYjxvB3Jg" name="Page-1">
     <mxGraphModel dx="1209" dy="662" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -6,6 +6,9 @@
         <mxCell id="1" parent="0" />
         <mxCell id="S02iKapHucoCpBGr2LOL-31" value="BAAK" style="swimlane;" vertex="1" parent="1">
           <mxGeometry x="80" y="60" width="200" height="570" as="geometry" />
+        </mxCell>
+        <mxCell id="S02iKapHucoCpBGr2LOL-36" value="START" style="html=1;dashed=0;whitespace=wrap;shape=mxgraph.dfd.start" vertex="1" parent="S02iKapHucoCpBGr2LOL-31">
+          <mxGeometry x="60" y="40" width="80" height="30" as="geometry" />
         </mxCell>
         <mxCell id="S02iKapHucoCpBGr2LOL-32" value="FRONT OFFICE" style="swimlane;" vertex="1" parent="1">
           <mxGeometry x="480" y="60" width="200" height="570" as="geometry" />
