@@ -1,22 +1,22 @@
-<mxfile host="app.diagrams.net" modified="2021-11-10T11:02:34.043Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.54 Safari/537.36 Edg/95.0.1020.40" etag="y_gPEyWZ_sVuTyuvP2jv" version="15.7.2" type="github">
+<mxfile host="app.diagrams.net" modified="2021-11-10T11:04:31.504Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.54 Safari/537.36 Edg/95.0.1020.40" etag="66bv7F2vdRcnS3qGmK91" version="15.7.2" type="github">
   <diagram id="FO9GJOeLVoTxYjxvB3Jg" name="Page-1">
     <mxGraphModel dx="1209" dy="662" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="S02iKapHucoCpBGr2LOL-31" value="Container" style="swimlane;" vertex="1" parent="1">
+        <mxCell id="S02iKapHucoCpBGr2LOL-31" value="BAAK" style="swimlane;" vertex="1" parent="1">
           <mxGeometry x="80" y="60" width="200" height="570" as="geometry" />
         </mxCell>
-        <mxCell id="S02iKapHucoCpBGr2LOL-32" value="Container" style="swimlane;" vertex="1" parent="1">
+        <mxCell id="S02iKapHucoCpBGr2LOL-32" value="FRONT OFFICE" style="swimlane;" vertex="1" parent="1">
           <mxGeometry x="480" y="60" width="200" height="570" as="geometry" />
         </mxCell>
-        <mxCell id="S02iKapHucoCpBGr2LOL-33" value="Container" style="swimlane;" vertex="1" parent="1">
+        <mxCell id="S02iKapHucoCpBGr2LOL-33" value="MAHASISWA" style="swimlane;startSize=23;" vertex="1" parent="1">
           <mxGeometry x="280" y="60" width="200" height="570" as="geometry" />
         </mxCell>
-        <mxCell id="S02iKapHucoCpBGr2LOL-34" value="Container" style="swimlane;" vertex="1" parent="1">
+        <mxCell id="S02iKapHucoCpBGr2LOL-34" value="DOSEN PA" style="swimlane;" vertex="1" parent="1">
           <mxGeometry x="880" y="60" width="200" height="570" as="geometry" />
         </mxCell>
-        <mxCell id="S02iKapHucoCpBGr2LOL-35" value="Container" style="swimlane;" vertex="1" parent="1">
+        <mxCell id="S02iKapHucoCpBGr2LOL-35" value="BANK" style="swimlane;" vertex="1" parent="1">
           <mxGeometry x="680" y="60" width="200" height="570" as="geometry" />
         </mxCell>
       </root>
