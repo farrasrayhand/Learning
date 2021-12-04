@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-12-04T12:43:13.088Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.55 Safari/537.36 Edg/96.0.1054.43" etag="8ZFe4ZKAOeuT-8x1VoW6" version="15.7.2" type="github">
+<mxfile host="app.diagrams.net" modified="2021-12-04T12:48:43.487Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.55 Safari/537.36 Edg/96.0.1054.43" etag="BnrDI1LkzoxU2-IzI3rX" version="15.7.2" type="github">
   <diagram id="Z3ZlILLj7G4PE_TEI92H" name="Page-1">
     <mxGraphModel dx="1038" dy="579" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -13,6 +13,9 @@
         <mxCell id="JWaEkeCcA3Z1N_mfGIg4-37" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="JWaEkeCcA3Z1N_mfGIg4-4">
           <mxGeometry x="5" y="320" width="15" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="JWaEkeCcA3Z1N_mfGIg4-44" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="JWaEkeCcA3Z1N_mfGIg4-4">
+          <mxGeometry x="5" y="410" width="15" height="60" as="geometry" />
+        </mxCell>
         <mxCell id="JWaEkeCcA3Z1N_mfGIg4-5" value="User Login" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
           <mxGeometry x="180" y="40" width="100" height="520" as="geometry" />
         </mxCell>
@@ -23,6 +26,12 @@
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="225" y="280" as="sourcePoint" />
             <mxPoint x="60" y="280" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JWaEkeCcA3Z1N_mfGIg4-43" value="Menampilkan Dashboard" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;rounded=0;entryX=1.02;entryY=0.508;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="JWaEkeCcA3Z1N_mfGIg4-5" source="JWaEkeCcA3Z1N_mfGIg4-18">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="230" y="410" as="sourcePoint" />
+            <mxPoint x="55" y="410.1099999999999" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="JWaEkeCcA3Z1N_mfGIg4-6" value="Sistem" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
@@ -96,6 +105,12 @@
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="755" y="380" as="sourcePoint" />
             <mxPoint x="580" y="380.10999999999996" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JWaEkeCcA3Z1N_mfGIg4-45" value="Dashboard Tampil" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;rounded=0;entryX=0.947;entryY=0.077;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.1;exitY=0.924;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="JWaEkeCcA3Z1N_mfGIg4-9" target="JWaEkeCcA3Z1N_mfGIg4-44">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="230" y="479.9999999999999" as="sourcePoint" />
+            <mxPoint x="100" y="480" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
