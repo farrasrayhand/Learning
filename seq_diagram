@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-12-04T12:39:15.566Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.55 Safari/537.36 Edg/96.0.1054.43" etag="L1Khklo4dKHHjCoSXxCA" version="15.7.2" type="github">
+<mxfile host="app.diagrams.net" modified="2021-12-04T12:41:16.428Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.55 Safari/537.36 Edg/96.0.1054.43" etag="9hMZ-cKf9YL7FlGpwa6p" version="15.7.2" type="github">
   <diagram id="Z3ZlILLj7G4PE_TEI92H" name="Page-1">
     <mxGraphModel dx="1038" dy="579" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -86,7 +86,7 @@
             <mxPoint x="695" y="325" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="JWaEkeCcA3Z1N_mfGIg4-41" value="ID, Password Salah" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;rounded=0;entryX=1.02;entryY=0.508;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1">
+        <mxCell id="JWaEkeCcA3Z1N_mfGIg4-41" value="Menampilkan Dashboard" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;rounded=0;entryX=1.02;entryY=0.508;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="755" y="380" as="sourcePoint" />
             <mxPoint x="580" y="380.10999999999996" as="targetPoint" />
