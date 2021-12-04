@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-12-04T12:30:23.826Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.55 Safari/537.36 Edg/96.0.1054.43" etag="mvIseo6DZwACo3XexAFt" version="15.7.2" type="github">
+<mxfile host="app.diagrams.net" modified="2021-12-04T12:30:51.903Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.55 Safari/537.36 Edg/96.0.1054.43" etag="UmisXbKcfSZfLAbrUKzb" version="15.7.2" type="github">
   <diagram id="Z3ZlILLj7G4PE_TEI92H" name="Page-1">
     <mxGraphModel dx="1038" dy="579" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -36,12 +36,12 @@
             <mxPoint x="165" y="140" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="JWaEkeCcA3Z1N_mfGIg4-19" value="ID dan Password" style="html=1;verticalAlign=bottom;startArrow=oval;endArrow=block;startSize=8;rounded=0;exitX=0.5;exitY=0.214;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" target="JWaEkeCcA3Z1N_mfGIg4-18" parent="1" source="JWaEkeCcA3Z1N_mfGIg4-9">
+        <mxCell id="JWaEkeCcA3Z1N_mfGIg4-19" value="ID dan Password" style="html=1;verticalAlign=bottom;startArrow=oval;endArrow=block;startSize=8;rounded=0;exitX=1.46;exitY=0.121;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" target="JWaEkeCcA3Z1N_mfGIg4-18" parent="1" source="JWaEkeCcA3Z1N_mfGIg4-9">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="335" y="170" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="JWaEkeCcA3Z1N_mfGIg4-21" value="Students data" style="html=1;verticalAlign=bottom;startArrow=oval;endArrow=block;startSize=8;rounded=0;exitX=0.5;exitY=0.25;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" target="JWaEkeCcA3Z1N_mfGIg4-20" parent="1" source="JWaEkeCcA3Z1N_mfGIg4-18">
+        <mxCell id="JWaEkeCcA3Z1N_mfGIg4-21" value="Students data" style="html=1;verticalAlign=bottom;startArrow=oval;endArrow=block;startSize=8;rounded=0;exitX=1.18;exitY=0.174;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" target="JWaEkeCcA3Z1N_mfGIg4-20" parent="1" source="JWaEkeCcA3Z1N_mfGIg4-18">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="400" y="200" as="sourcePoint" />
           </mxGeometry>
