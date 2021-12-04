@@ -1,23 +1,26 @@
-<mxfile host="app.diagrams.net" modified="2021-12-04T12:20:47.426Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.55 Safari/537.36 Edg/96.0.1054.43" etag="mcOHVapyVx49UnZo9NAD" version="15.7.2" type="github">
+<mxfile host="app.diagrams.net" modified="2021-12-04T12:23:16.849Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.55 Safari/537.36 Edg/96.0.1054.43" etag="0Jd7wXImrFu6hjTPljtN" version="15.7.2" type="github">
   <diagram id="Z3ZlILLj7G4PE_TEI92H" name="Page-1">
     <mxGraphModel dx="1038" dy="579" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="JWaEkeCcA3Z1N_mfGIg4-4" value="User" style="shape=umlLifeline;participant=umlActor;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;verticalAlign=top;spacingTop=36;outlineConnect=0;" vertex="1" parent="1">
-          <mxGeometry x="70" y="40" width="20" height="300" as="geometry" />
+          <mxGeometry x="70" y="40" width="20" height="510" as="geometry" />
         </mxCell>
         <mxCell id="JWaEkeCcA3Z1N_mfGIg4-17" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="JWaEkeCcA3Z1N_mfGIg4-4">
           <mxGeometry x="5" y="100" width="10" height="80" as="geometry" />
         </mxCell>
         <mxCell id="JWaEkeCcA3Z1N_mfGIg4-5" value="User Login" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
-          <mxGeometry x="180" y="40" width="100" height="300" as="geometry" />
+          <mxGeometry x="180" y="40" width="100" height="520" as="geometry" />
         </mxCell>
         <mxCell id="JWaEkeCcA3Z1N_mfGIg4-9" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="JWaEkeCcA3Z1N_mfGIg4-5">
-          <mxGeometry x="45" y="100" width="10" height="80" as="geometry" />
+          <mxGeometry x="45" y="100" width="10" height="140" as="geometry" />
         </mxCell>
         <mxCell id="JWaEkeCcA3Z1N_mfGIg4-6" value="Sistem" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
           <mxGeometry x="350" y="40" width="100" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="JWaEkeCcA3Z1N_mfGIg4-18" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="JWaEkeCcA3Z1N_mfGIg4-6">
+          <mxGeometry x="45" y="130" width="10" height="80" as="geometry" />
         </mxCell>
         <mxCell id="JWaEkeCcA3Z1N_mfGIg4-7" value="Database" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
           <mxGeometry x="530" y="40" width="100" height="300" as="geometry" />
@@ -25,9 +28,14 @@
         <mxCell id="JWaEkeCcA3Z1N_mfGIg4-8" value="Dashboard" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
           <mxGeometry x="710" y="40" width="100" height="300" as="geometry" />
         </mxCell>
-        <mxCell id="JWaEkeCcA3Z1N_mfGIg4-10" value="dispatch" style="html=1;verticalAlign=bottom;startArrow=oval;endArrow=block;startSize=8;rounded=0;exitX=0.86;exitY=0.008;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" target="JWaEkeCcA3Z1N_mfGIg4-5" parent="1" source="JWaEkeCcA3Z1N_mfGIg4-17">
+        <mxCell id="JWaEkeCcA3Z1N_mfGIg4-10" value="Isi ID dan Password" style="html=1;verticalAlign=bottom;startArrow=oval;endArrow=block;startSize=8;rounded=0;exitX=0.86;exitY=0.008;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" target="JWaEkeCcA3Z1N_mfGIg4-5" parent="1" source="JWaEkeCcA3Z1N_mfGIg4-17">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="165" y="140" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JWaEkeCcA3Z1N_mfGIg4-19" value="ID dan Password" style="html=1;verticalAlign=bottom;startArrow=oval;endArrow=block;startSize=8;rounded=0;exitX=0.5;exitY=0.214;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" target="JWaEkeCcA3Z1N_mfGIg4-18" parent="1" source="JWaEkeCcA3Z1N_mfGIg4-9">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="335" y="170" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
       </root>
